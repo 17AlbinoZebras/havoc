@@ -132,6 +132,10 @@ colors{
 
 
 
+.weirdQuiz{
+  visibility: hidden;
+}
+
 .AAAAA{
   font-family: 'Candal', sans-serif;
   font-style: italic;
