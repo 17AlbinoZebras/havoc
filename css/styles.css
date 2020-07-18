@@ -1,0 +1,138 @@
+a{
+  text-decoration: none;
+  color: #3282b8;
+}
+
+a:hover{
+  color: #f76b8a;
+}
+
+body{
+  background-color: #fcfefe;
+  margin: 0;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  color: #1b262c;
+}
+
+div{
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin: 20px auto;
+  border-color: #0f4c75;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 9px;
+  height: 0;
+  width: 5%;
+}
+
+
+
+.topBar{
+  background-color: #66BFBF;
+  height: 60px;
+}
+
+.topContainer{
+  background-color: #bbe1fa;
+  position: relative;
+  padding-top: 125px;
+}
+
+.topCloud{
+  position: absolute;
+  top: 0;
+  right: 350px;
+  width: 10%;
+}
+
+.bottomCloud{
+  position: absolute;
+  left: 375px;
+  bottom: 435px;
+  width: 10%;
+}
+
+.havoc{
+  margin: 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3rem;
+  color: #66BFBF;
+}
+
+.yoski{
+  font-family: 'Merienda One', cursive;
+  font-size: 2rem;
+  color: #66BFBF;
+}
+
+.funkyFresh{
+  font-family: 'Fontdiner Swanky', cursive;
+}
+
+
+.middleContainer{
+  padding: 20px 0;
+}
+
+.shaysOpinions{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Amarante', cursive;
+}
+
+.shaysIcons{
+margin: 0 auto;
+width: 50%;
+}
+
+.itemRow{
+  margin: 25px auto;
+  width: 20%;
+}
+
+
+.bottomContainer{
+  background-color: #66BFBF;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.saga{
+  font-family: 'Berkshire Swash', cursive;
+  color: #34699a;
+}
+
+.footer{
+  font-size: 1.25rem;
+
+}
+
+.credit{
+  color: #113f67;
+}
+
+/*
+.creditA{
+  color: #66ff8f;
+  #00ffb6
+  #00baff
+  #19abca
+  #5f89ff
+  #198cca
+  #0083c4
+  #008080
+}
+*/
+
+
+
+
+.AAAAA{
+  font-family: 'Candal', sans-serif;
+  font-style: italic;
+}
