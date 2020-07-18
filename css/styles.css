@@ -45,15 +45,15 @@ hr {
 
 .topCloud{
   position: absolute;
-  top: 0;
-  right: 350px;
+  top: 5px;
+  right: 25%;
   width: 10%;
 }
 
 .bottomCloud{
   position: absolute;
-  left: 375px;
-  bottom: 435px;
+  left: 25%;
+  bottom: 58%;
   width: 10%;
 }
 
