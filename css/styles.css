@@ -144,7 +144,10 @@ colors{
 .approach{
   font-family: 'Merienda One', cursive;
   font-size: 2rem;
-  padding: 50px;
+}
+
+.tater{
+  margin-top: 50px;
 }
 
 
