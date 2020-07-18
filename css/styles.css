@@ -117,7 +117,7 @@ width: 50%;
 }
 
 /*
-.creditA{
+colors{
   color: #66ff8f;
   #00ffb6
   #00baff
@@ -135,4 +135,27 @@ width: 50%;
 .AAAAA{
   font-family: 'Candal', sans-serif;
   font-style: italic;
+}
+
+
+
+
+
+.approach{
+  font-family: 'Merienda One', cursive;
+  font-size: 2rem;
+  padding: 50px;
+}
+
+
+
+
+
+.approacheth{
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 2rem;
+}
+
+.roacheth{
+  width: 100%;
 }
