@@ -1,13 +1,13 @@
 a{
-  color: #3282b8;
+  color: #34699a;
 }
 
 a:hover{
-  color: #f76b8a;
+  color: #bbe1fa;
 }
 
 body{
-  background-color: #fcfefe;
+  background-color: #bbe1fa;
   margin: 0;
   text-align: center;
   font-family: 'Comic Neue', cursive;
@@ -33,18 +33,31 @@ hr {
 
 .topBar{
   background-color: #66BFBF;
-  height: 60px;
+  font-family: 'Merienda One', cursive;
+  margin-bottom: 25px;
 }
 
+.saga{
+  font-family: 'Berkshire Swash', cursive;
+  /*
+  color: #34699a;
+  */
+  margin: 10px;
+}
+
+
+
+
+
+
 .topContainer{
-  background-color: #bbe1fa;
   position: relative;
   padding-top: 125px;
 }
 
 .topCloud{
   position: absolute;
-  top: 5px;
+  top: 0;
   right: 25%;
   width: 10%;
 }
@@ -52,7 +65,7 @@ hr {
 .bottomCloud{
   position: absolute;
   left: 25%;
-  bottom: 58%;
+  bottom: 55%;
   width: 10%;
 }
 
@@ -75,6 +88,7 @@ hr {
 
 
 .middleContainer{
+  background-color: #fcfefe;
   padding: 20px 0;
 }
 
@@ -85,13 +99,13 @@ hr {
 }
 
 .shaysIcons{
-margin: 0 auto;
-width: 50%;
+margin: 10px auto;
+width: 33.33%;
 }
 
 .itemRow{
   margin: 25px auto;
-  width: 20%;
+  width: 30%;
 }
 
 
@@ -99,11 +113,6 @@ width: 50%;
   background-color: #66BFBF;
   margin: 0 auto;
   padding: 10px;
-}
-
-.saga{
-  font-family: 'Berkshire Swash', cursive;
-  color: #34699a;
 }
 
 .footer{
