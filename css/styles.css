@@ -52,7 +52,7 @@ hr {
 
 .topContainer{
   position: relative;
-  padding-top: 125px;
+  padding-top: 10%;
 }
 
 .topCloud{
@@ -65,7 +65,7 @@ hr {
 .bottomCloud{
   position: absolute;
   left: 25%;
-  bottom: 55%;
+  bottom: 55.9%;
   width: 10%;
 }
 
@@ -75,15 +75,15 @@ hr {
 }
 
 .havoc{
-  margin: 0 auto 10px;
+  margin: 0 auto 1%;
   font-family: 'Kaushan Script', cursive;
-  font-size: 3rem;
+  font-size: 3em;
   color: #66BFBF;
 }
 
 .yoski{
   font-family: 'Merienda One', cursive;
-  font-size: 2rem;
+  font-size: 2em;
   color: #66BFBF;
 }
 
