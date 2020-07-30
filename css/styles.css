@@ -69,8 +69,13 @@ hr {
   width: 10%;
 }
 
-.havoc{
+.trees{
+  width: 40%;
   margin: 0 auto;
+}
+
+.havoc{
+  margin: 0 auto 10px;
   font-family: 'Kaushan Script', cursive;
   font-size: 3rem;
   color: #66BFBF;
@@ -128,13 +133,19 @@ width: 33.33%;
 colors{
   color: #66ff8f;
   #00ffb6
+  #008080
+  #a2faf7
   #00baff
   #19abca
-  #5f89ff
   #198cca
   #0083c4
-  #008080
+  #226EB3
+  #5f89ff
+  #10008a
   #39008f
+  #5d2450
+  #b134f9
+  #873fd8
 }
 */
 
@@ -146,9 +157,13 @@ colors{
 }
 
 .AAAAA{
+  width: 100%;
   font-family: 'Candal', sans-serif;
   font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 
