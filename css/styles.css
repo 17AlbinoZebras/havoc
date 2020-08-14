@@ -20,7 +20,7 @@ div{
 }
 
 hr {
-  margin: 20px auto;
+  margin: 2rem auto;
   border-color: #0f4c75;
   border-style: none;
   border-top-style: dotted;
@@ -53,6 +53,7 @@ hr {
 .topContainer{
   position: relative;
   padding-top: 10%;
+  padding-bottom: 1rem;
 }
 
 .topCloud{
@@ -87,14 +88,41 @@ hr {
   color: #66BFBF;
 }
 
+
+.middleContainer{
+  position: relative;
+  background-color: #fcfefe;
+}
+
 .funkyFresh{
+  padding: 1.5rem 0 1rem;
   font-family: 'Fontdiner Swanky', cursive;
 }
 
+.profile{
+  position: relative;
+  background-color: #fff;
+  padding: 1rem 0 1.5rem;
+}
 
-.middleContainer{
-  background-color: #fcfefe;
-  padding: 20px 0;
+.tindog{
+  background-color: #1bd7bb;
+  padding: 5%;
+}
+
+.congrats{
+  color: #1bd7bb;
+  font-size: 1.5rem
+}
+
+@media (min-width: 1200px){
+  .congrats{
+    visibility: hidden;
+  }
+}
+
+.lessSpace{
+  margin-bottom: 1.5rem;
 }
 
 .shaysOpinions{
@@ -113,11 +141,18 @@ width: 33.33%;
   width: 30%;
 }
 
+.newWords{
+  background-color: #66BFBF;
+  color: #fff;
+  padding: 1.5rem;
+}
+
 
 .bottomContainer{
-  background-color: #66BFBF;
+  background-color: #fff;
   margin: 0 auto;
-  padding: 10px;
+  padding-top: .5rem;
+  padding-bottom: 10px;
 }
 
 .footer{
@@ -132,6 +167,7 @@ width: 33.33%;
 /*
 colors{
   color: #66ff8f;
+  #22e4ac
   #00ffb6
   #008080
   #a2faf7
