@@ -1,17 +1,17 @@
 a{
-  color: #34699a;
+  color: /*#34699a*/ #888;
 }
 
 a:hover{
-  color: #bbe1fa;
+  color: /*#bbe1fa*/#ed7833;
 }
 
 body{
-  background-color: #bbe1fa;
+  background-color: /*#bbe1fa*/ #512888;
   margin: 0;
   text-align: center;
   font-family: 'Comic Neue', cursive;
-  color: #1b262c;
+  color: /*#1b262c*/ #000;
 }
 
 div{
@@ -21,7 +21,7 @@ div{
 
 hr {
   margin: 2rem auto;
-  border-color: #0f4c75;
+  border-color: /*#0f4c75*/ #008080;
   border-style: none;
   border-top-style: dotted;
   border-width: 9px;
@@ -32,9 +32,9 @@ hr {
 
 
 .topBar{
-  background-color: #66BFBF;
+  background-color: /*#66BFBF*/#512888;
   font-family: 'Merienda One', cursive;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .saga{
@@ -54,11 +54,19 @@ hr {
   position: relative;
   padding-top: 10%;
   padding-bottom: 1rem;
+  background-image: linear-gradient(to bottom, #1d1d1d, #333);
 }
 
 .topCloud{
   position: absolute;
   top: 0;
+  right: 25%;
+  width: 10%;
+}
+
+.topBat{
+  position: absolute;
+  top: 4.5%;
   right: 25%;
   width: 10%;
 }
@@ -70,28 +78,40 @@ hr {
   width: 10%;
 }
 
+.bottomGhost{
+  position: absolute;
+  left: 23%;
+  bottom: 52%;
+  width: 10%;
+}
+
 .trees{
   width: 40%;
   margin: 0 auto;
 }
 
+.gred{
+  width: 50%;
+  margin: 0 auto;
+}
+
 .havoc{
-  margin: 0 auto 1%;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 3em;
-  color: #66BFBF;
+  margin: 25px auto 1%;
+  font-family: /*'Kaushan Script', cursive*/ 'Nosifer', cursive;
+  font-size: /*3em*/ 2.5em;
+  color: /*#66BFBF*/#8a0303;
 }
 
 .yoski{
-  font-family: 'Merienda One', cursive;
+  font-family:/*'Merienda One', cursive*/ 'Fontdiner Swanky', cursive;
   font-size: 2em;
-  color: #66BFBF;
+  color: /*#66BFBF*/#ccc;
 }
 
 
 .middleContainer{
   position: relative;
-  background-color: #fcfefe;
+  background-color: /*#fcfefe*/ #888;
 }
 
 .funkyFresh{
@@ -101,17 +121,18 @@ hr {
 
 .profile{
   position: relative;
-  background-color: #fff;
+  background-color: /*#fff*/ #888;
+  background-image: linear-gradient(to bottom right, #EB6123, #ff7d23c2);
   padding: 1rem 0 1.5rem;
 }
 
-.tindog{
-  background-color: #1bd7bb;
+.td{
+  background-color: /*#1bd7bb*/#7349AC;
   padding: 5%;
 }
 
 .congrats{
-  color: #1bd7bb;
+  color: /*#1bd7bb*/#7349AC;
   font-size: 1.5rem
 }
 
@@ -119,6 +140,11 @@ hr {
   .congrats{
     visibility: hidden;
   }
+}
+
+.midGrad{
+  background-image: linear-gradient(to bottom left, #EB6123, #ff7d23c2);
+  padding: .5%;
 }
 
 .lessSpace{
@@ -142,14 +168,16 @@ width: 33.33%;
 }
 
 .newWords{
-  background-color: #66BFBF;
-  color: #fff;
+  /*background-color: #66BFBF;*/
+  background-image: linear-gradient(to top, #512888, #7349AC);
+  /*color: #fff;*/
   padding: 1.5rem;
 }
 
 
 .bottomContainer{
-  background-color: #fff;
+  background-color: /*#fff*/ #333;
+  background-image: linear-gradient(to top, #111, #333);
   margin: 0 auto;
   padding-top: .5rem;
   padding-bottom: 10px;
@@ -161,29 +189,47 @@ width: 33.33%;
 }
 
 .credit{
-  color: #113f67;
+  color: /*#113f67*/ #7349AC;
 }
 
 /*
 colors{
-  color: #66ff8f;
-  #22e4ac
+  #66ff8f
   #00ffb6
+  #22e4ac
+  #7ed09e
+  #18d59f
+  #00ffc1
   #008080
-  #a2faf7
-  #00baff
+  #46b29D
   #19abca
+  #a2faf7
   #198cca
-  #0083c4
   #226EB3
+  #0083c4
+  #00baff
   #5f89ff
   #10008a
   #39008f
-  #5d2450
-  #b134f9
+  #443093
+  #512888
+  #7349AC
   #873fd8
+  #b134f9
+  #f98eff
+  #ec79ed
+  #f953d2
+  #5d2450
+  #DA4200
+  #EB6123
+  #ed7833
+  #ffaa79
 }
 */
+
+.hidden{
+  display: none;
+}
 
 
 
