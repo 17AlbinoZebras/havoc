@@ -50,16 +50,46 @@ hr {
 
 .topContainer{
   position: relative;
-  padding-top: 10%;
+  padding-top: 20%;
   padding-bottom: 1rem;
   /* background-image: linear-gradient(to bottom, #1d1d1d, #333); */
 }
 
+.sun{
+  position: absolute;
+  top: 4%;
+  width: 20%;
+  left: 10%;
+}
+
+@keyframes move-top-cloud {
+  from {
+    right: 0
+  }
+  to {
+    right: 100%
+  }
+}
+
+@keyframes move-top-to-end {
+  from {
+    right: 0
+  }
+  to {
+    right: 20%
+  }
+}
+
 .topCloud{
   position: absolute;
-  top: 5%;
-  right: 25%;
-  width: 10%;
+  top: 12%;
+  width: 14%;
+  right: 17.5%;
+  animation: move-top-cloud 20s linear;
+}
+
+.return-top-cloud{
+  animation: move-top-to-end 5s linear;
 }
 
 .topBat{
@@ -69,23 +99,53 @@ hr {
   width: 10%;
 }
 
+.other-cloud{
+  position: absolute;
+  width: 14%;
+  right: 35%;
+}
+
+@keyframes move-bottom-cloud {
+  from {
+    left: 0
+  }
+  to {
+    left: 100%
+  }
+}
+
+@keyframes move-bottom-to-end {
+  from {
+    left: 0
+  }
+  to {
+    left: 30%
+  }
+}
+
 .bottomCloud{
   position: absolute;
-  left: 22.5%;
-  bottom: 55.9%;
-  width: 10%;
+  bottom: 45%;
+  width: 14%;
+  left: 25%;
+  animation: move-bottom-cloud 15s linear;
+}
+
+.return-bottom-cloud{
+  animation: move-bottom-to-end 3.75s linear;
 }
 
 .bottomGhost{
   position: absolute;
-  left: 23%;
+  left: 25%;
   bottom: 52%;
   width: 10%;
 }
 
 .trees{
   width: 40%;
-  margin: 0 auto;
+  margin: 7% auto;
+  margin-bottom: 0;
 }
 
 .gred{
@@ -96,25 +156,13 @@ hr {
 .havoc{
   margin: 25px auto 1%;
   font-family: 'Kaushan Script', cursive /*'Nosifer', cursive*/;
-  font-size: 3em /*2.5em*/;
+  font-size: 3.33vw /*2.5em*/;
   color: #66BFBF/*#8a0303*/;
-}
-
-@media (min-width: 1500px) and (max-width: 1800px){
-  .havoc{
-    font-size: 3.5em;
-  }
-}
-
-@media (min-width: 1800px) and (max-width: 2100px){
-  .havoc{
-    font-size: 4em;
-  }
 }
 
 .yoski{
   font-family:'Merienda One', cursive /*'Fontdiner Swanky', cursive*/;
-  font-size: 2em;
+  font-size: 2.22vw;
   color: #66BFBF/*#ccc*/;
 }
 
@@ -271,7 +319,13 @@ colors{
 
 
 .weirdQuiz{
+  margin-left: 1rem;
   visibility: hidden;
+}
+
+.quizWarning{
+  font-size: 0.85rem;
+  margin-left: 0;
 }
 
 .AAAAA{
@@ -279,7 +333,6 @@ colors{
   font-family: 'Candal', sans-serif;
   font-style: italic;
   font-weight: bold;
-  font-size: 2rem;
   text-align: center;
   overflow-wrap: break-word;
 }
@@ -290,7 +343,6 @@ colors{
 
 .approach{
   font-family: 'Merienda One', cursive;
-  font-size: 2rem;
 }
 
 .tater{
@@ -304,10 +356,14 @@ colors{
 .approacheth{
   padding-top: 1rem;
   font-family: 'Fontdiner Swanky', cursive;
-  font-size: 2rem;
-
 }
 
 .roacheth{
   width: 100%;
+}
+
+
+
+.AAAAA, .approach, .approacheth{
+  font-size: 2rem;
 }
