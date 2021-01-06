@@ -34,6 +34,7 @@ hr {
 .topBar{
   background-color: #7d4c9c/*#512888*/;
   font-family: 'Merienda One', cursive;
+  z-index: 1;
   /* margin-bottom: 25px; */
 }
 
@@ -57,9 +58,10 @@ hr {
 
 .sun{
   position: absolute;
-  top: 4%;
-  width: 20%;
-  left: 10%;
+  bottom: 68%;
+  width: 50%;
+  right: 68%;
+  transform: rotate(9.5deg);
 }
 
 @keyframes move-top-cloud {
@@ -82,8 +84,8 @@ hr {
 
 .topCloud{
   position: absolute;
-  top: 12%;
-  width: 14%;
+  top: 10%;
+  width: 16%;
   right: 17.5%;
   animation: move-top-cloud 20s linear;
 }
@@ -97,12 +99,6 @@ hr {
   top: 4.5%;
   right: 25%;
   width: 10%;
-}
-
-.other-cloud{
-  position: absolute;
-  width: 14%;
-  right: 35%;
 }
 
 @keyframes move-bottom-cloud {
@@ -125,9 +121,9 @@ hr {
 
 .bottomCloud{
   position: absolute;
-  bottom: 45%;
-  width: 14%;
-  left: 25%;
+  bottom: 40.75%;
+  width: 16%;
+  left: 27.5%;
   animation: move-bottom-cloud 15s linear;
 }
 
@@ -144,7 +140,7 @@ hr {
 
 .trees{
   width: 40%;
-  margin: 7% auto;
+  margin: 10% auto;
   margin-bottom: 0;
 }
 
@@ -156,13 +152,13 @@ hr {
 .havoc{
   margin: 25px auto 1%;
   font-family: 'Kaushan Script', cursive /*'Nosifer', cursive*/;
-  font-size: 3.33vw /*2.5em*/;
+  font-size: 4vw /*2.5em*/;
   color: #66BFBF/*#8a0303*/;
 }
 
 .yoski{
   font-family:'Merienda One', cursive /*'Fontdiner Swanky', cursive*/;
-  font-size: 2.22vw;
+  font-size: 2.5vw;
   color: #66BFBF/*#ccc*/;
 }
 
